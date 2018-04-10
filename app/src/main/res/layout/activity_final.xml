@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:id="@+id/tvHighestScore"
+        android:textSize="@dimen/TextSize"
+        android:textColor="#ff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginRight="174dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="135dp"
+        android:text="Your score:"
+        app:layout_constraintBottom_toTopOf="@+id/tvFinalScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFinalScore"
+        android:textSize="35sp"
+        android:textColor="#1010da"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginRight="174dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="180dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="218dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginRight="157dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="46dp"
+        android:text="Play Again"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</android.support.constraint.ConstraintLayout>

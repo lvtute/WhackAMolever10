@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+    android:id="@+id/tvLive"
+    android:textSize="@dimen/TextSize"
+    android:text="0"
+    android:textColor="#ff0000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/tvScore"
+        android:textSize="@dimen/TextSize"
+        android:text="0"
+        android:textColor="#0026ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <GridView
+        android:layout_below="@+id/tvLive"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"></GridView>
+<TextView
+    android:id="@+id/tvLevel"
+    android:text="0"
+    android:paddingTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/grid"
+    android:textSize="@dimen/TextSize"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</RelativeLayout>
