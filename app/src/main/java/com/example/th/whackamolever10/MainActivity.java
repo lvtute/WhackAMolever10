@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //hihihi
+
         AnhXa();
         txtMang.setText("Lives: "+Mang);
         adapter = new ImageAdapter(this, R.layout.grid_item, imageArrayList);
